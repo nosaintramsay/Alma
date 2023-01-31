@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    left: 0;
+}
+
+    /* Title*/
+.title{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+   
+    
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.title__paragraph{
+    padding-top: 10px;
+    text-align: center;
+    color: #5B5855;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+    /* button*/
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    
+}
+
+.btn__first{
+    margin-left: 5px;
+    width: 171px;
+    height: 50px;
+
+    background: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+.btn__first:hover{
+    background-color: #0C4A34;
+    color: white;
+}
+
+.btn__second{
+    width: 138px;
+    height: 50px;
+
+    background: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 15px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+.btn__second:hover{
+    background-color: #0C4A34;
+    color: white;
+}
+
+    /* Container's*/
+.container__block{
+    display: flex;
+}
+
+.container__left{
+    padding-left: 285px;
+    margin-top: 90px;
+
+    width: 650px;
+    height: 670px;
+}
+
+.solo__item{
+    margin-top: -5px;
+}
+
+.double__item{
+    margin-top: 10px;
+}
+
+.container__right{
+    width: 428px;
+    height: 677px;
+
+    margin-top: 112px;
+    padding-left: 12px;
+}
+
+.right__block{
+    padding-left: 10px;
+}
+
+.container__photo{
+    display: flex;
+}
+
+.container__photo--bottom{
+    display: flex;
+    padding-top: 15px;
+}
+
+.container__item{
+    margin-left: 12px;
+}
+
+.container__flex{
+    display: flex;
+}
+
+.double__item{
+    display: flex;
+}
+
+.item__photo:last-child{
+    margin-left: 12px;
+}
+
+.right__photo:first-child{
+    margin-top: -4px;
+}
+
+.right__img{
+    width: 234px;
+    height: 355px;
+    margin-top: -2px;
+}
+
+    /* Block reviews*/
+.reviews{
+    background: url("vector/comment.png");
+    background-size: cover;
+    width: 1312px;
+    height: 300px;
+
+    margin-top: 20px;
+    margin-left: 295px;
+}
+
+.reviews__title{
+    margin-left: 275px;
+    padding-top: 45px;
+
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36.45px;
+}
+
+.reviews__paragraph{
+    padding-top: 10px;
+    margin-left: 274px;
+
+    color: #5B5855;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.02px;
+}
+
+.reviews__link{
+    color: #5B5855;
+    padding-left: 7px;
+    padding-top: 9px;
+}
+
+.reviews__link:hover{
+    color: black;
+}
+
+
+
+
+
